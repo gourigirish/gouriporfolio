@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav-link{
+     color:white;
+}
+body{
+    background: rgb(6,6,6);
+background: linear-gradient(90deg, rgba(6,6,6,1) 0%, rgba(98,98,98,1) 62%, rgba(148,149,149,1) 100%);
+    color: white;
+}
+.navbar-brand{
+    color:rgb(233, 218, 218);
+    margin-left: 3%;
+    font-size:32px ;
+}
+.navbar-brand:hover{
+    color:gray ;
+}
+.custom-menu
+{
+    margin-left: 55%;
+}
+.home-section{
+    margin: 3%;
+}
+.text{
+    margin-top: 3%;
+    font-size: 100px;
+    line-height: 105px;
+    font-weight: 550;
+}
+.white-bar{
+    margin-top: 157px;
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.bottom-section{
+    display: flex;
+    justify-content: center;
+}
+.profile-img{
+    border-radius: 16px;
+    margin-top: -120px;
+    margin-right: 5vw;
+    /* z-index: 1000; */
+    /* transform-origin: bottom; */
+}
+.project-section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(print.svg);
+}
+
+.text1{
+   margin-top: 300px;
+}
+.contact-section{
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: url(print.svg);
+}
+.contact-div{
+    margin-top: 45vh;
+}
+.formm{
+    height: 65vh;
+    background-color:rgb(6, 6, 6);
+    color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    margin-top: 10%;
+}
+.myinput{
+    background-color: rgb(44, 43, 43) !important;
+    color: white !important;
+}
+
+#exampleInputTextarea1{
+    margin-bottom:10px;
+    border-color: white;
+    font-size: small;
+}
+.button{
+    background-color: rgb(5, 4, 4);
+    border-color: white ;
+}
+.button:hover{
+    background-color: rgb(108, 106, 106);
+}
+.about{
+    display: flex;
+    height: 100vh;
+    justify-content:center;
+    background-image: url(rose-petals.svg);
+}
+.indroduction{
+    padding: 3%;
+    
+}
+.word{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    width: 50vw;
+}
+.icons{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    
+}
+.skill-section{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-image:url(end.svg) ;  
+}
+.pro{
+padding: 10px;
+border-radius: 20px;
+box-shadow: 7px;
+background-color: rgb(6, 6, 6) !important;
+
+}
+.html{
+    display: flex;
+    justify-content: space-between;
+}
+.qw{
+   margin-top: 45px;
+}
+h1{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-image: url(end.svg);
+}
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.item{
+    padding: 10px;
+}
+hr{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(250, 245, 245);
+    border: none;
+}
