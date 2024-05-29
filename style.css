@@ -166,7 +166,7 @@ h1{
 .footer{
     display: flex;
     flex-direction: row;
-    height: 60vh;
+    height: 40vh;
     background-image: url(end.svg);
 }
 .link{
@@ -178,9 +178,11 @@ h1{
     padding: 10px;
 }
 .second-section{
-    padding: 200px;
+    padding: 100px 200px;
 }
-
+.qe{
+    display: inline-block;
+}
 
 @media screen and (max-width:768px) {
     .body{
@@ -236,6 +238,7 @@ h1{
         height: 500px;
         width: 400px;
         margin-left: 60px;
+        border: 2px solid white;
     }
     .myinput{
         width: 350px;
@@ -245,7 +248,7 @@ h1{
     }
     .second-section{
         text-align: center;
-        padding:  90px 150px;
+        padding: 90px ;
         
     }
     .skill-section{
@@ -258,5 +261,36 @@ h1{
     }
     .qe{
         margin-top: 45px; 
+    }
+    .pro{
+        /* margin: 4px 150px; */
+        border: 2px dotted white;
+    }
+    .footer{
+        height:40vh;
+        border:2px solid white;
+    }
+    .item{
+        padding: 2px;
+    }
+    .word{
+        margin-left: 24vw;
+    }
+    .about{
+        height: 65vh;
+        border:2px solid white;
+    }
+    .contact-section{
+        height:88vh;
+    }
+    .project-section{
+        height: 65vh;
+        display: flex;
+        border:2px solid white;
+    }
+    .text1{
+        margin-top: 100px;
+        
+    } 
     }
 } 
